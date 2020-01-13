@@ -1,3 +1,7 @@
+.hover .btn:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
 .nav {
   width: 100%;
   display: flex;
@@ -312,6 +316,13 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text #btn-a {
+  text-decoration: none;
+}
+.home .walk .walk-text #btn-a .btn:hover {
+  background-color: #FFFFFF;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
