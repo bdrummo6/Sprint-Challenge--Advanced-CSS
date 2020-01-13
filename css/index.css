@@ -11,29 +11,6 @@
   margin-top: 15px;
   background: #F5F5F5;
 }
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25%;
-  text-align: center;
-  background-color: black;
-  color: #FFFFFF;
-  weight: bold;
-  font-size: 1.5em;
-  padding: 10px;
-  margin: 4px;
-  border-radius: 4px;
-}
-@media (max-width: 500px) {
-  .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-  }
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -323,6 +300,29 @@ footer {
 .home .walk .walk-text #btn-a .btn:hover {
   background-color: #FFFFFF;
   color: black;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  text-align: center;
+  background-color: black;
+  color: #FFFFFF;
+  weight: bold;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 4px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
