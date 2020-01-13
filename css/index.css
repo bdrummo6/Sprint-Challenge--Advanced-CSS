@@ -338,3 +338,17 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home form h3 {
+  margin: 20px 0 10px 0;
+}
+.home form div {
+  margin: 10px 0 10px 0;
+  font-size: 3.2rem;
+}
