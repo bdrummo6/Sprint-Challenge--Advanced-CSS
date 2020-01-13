@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive layouts borrow from the speed of a fixed-layout but still allow you to design for different sizes of devices. 
+
+Responsive layouts combine features of fixed, adaptive, and fluid websites and use media queries allowing the control of responsive units so that allows a webpage/website looks great on a vast number of different size devices.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means you design first for mobile device such as a phone, which means your general values will be aimed at smaller devices and your media queries will be made for larger and larger devices. Desktop first is just the opposite where your general designs are for larger devices such as a desktop and then your media queries for for smaller and smaller devices.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Using 62.5% as the font-size for the root(html) is good to use, because then you can convert rem units by the power of 10 so 1 
+rem would equal 10px throughout the html document.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is simply a more robust syntax(LESS) for CSS that is then compiled into CSS that styles your page. Preprocessing 
+can reduce errors and increase productivity.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite part of preprocessing is the ability to use variables so that you can make one change at one location and effect multiple parts of the file. The concept that gives me the most trouble is the use of the less compiler, because I forgot to always run it and don't see changes to my web pages and it gets frustrating. I am sure this problem will work it out over time.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,12 +65,12 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
